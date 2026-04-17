@@ -1,0 +1,10 @@
+/Users/tomaszstefaniak/code/Web3/FXShield/programs/fxshield/target_sbf_sandbox/release/deps/libversion_check-c035eab7a7580738.rmeta: /Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/lib.rs /Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/version.rs /Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/channel.rs /Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/date.rs
+
+/Users/tomaszstefaniak/code/Web3/FXShield/programs/fxshield/target_sbf_sandbox/release/deps/libversion_check-c035eab7a7580738.rlib: /Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/lib.rs /Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/version.rs /Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/channel.rs /Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/date.rs
+
+/Users/tomaszstefaniak/code/Web3/FXShield/programs/fxshield/target_sbf_sandbox/release/deps/version_check-c035eab7a7580738.d: /Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/lib.rs /Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/version.rs /Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/channel.rs /Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/date.rs
+
+/Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/lib.rs:
+/Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/version.rs:
+/Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/channel.rs:
+/Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/version_check-0.9.5/src/date.rs:

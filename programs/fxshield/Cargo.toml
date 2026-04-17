@@ -1,0 +1,24 @@
+[package]
+name = "fxshield"
+version = "0.1.0"
+description = "Created with Anchor"
+edition = "2021"
+rust-version = "1.75.0"
+
+[lib]
+crate-type = ["cdylib", "lib"]
+name = "fxshield"
+
+[features]
+default = []
+cpi = ["no-entrypoint"]
+no-entrypoint = []
+no-idl = []
+no-log-ix-name = []
+idl-build = ["anchor-lang/idl-build"]
+
+[dependencies]
+anchor-lang = { version = "0.30.1", features = ["init-if-needed"] }
+anchor-spl = { version = "0.30.1", features = ["associated_token", "metadata"] }
+proc-macro2 = { version = "*", features = ["span-locations"] }
+solana-program = "=1.18.26"

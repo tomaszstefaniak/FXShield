@@ -1,0 +1,5 @@
+/Users/tomaszstefaniak/code/Web3/FXShield/programs/fxshield/target_sbf_agave/release/deps/libsolana_frozen_abi_macro-739cc13131d574a0.dylib: /Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-macro-1.18.26/src/lib.rs
+
+/Users/tomaszstefaniak/code/Web3/FXShield/programs/fxshield/target_sbf_agave/release/deps/solana_frozen_abi_macro-739cc13131d574a0.d: /Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-macro-1.18.26/src/lib.rs
+
+/Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/solana-frozen-abi-macro-1.18.26/src/lib.rs:

@@ -1,0 +1,10 @@
+/Users/tomaszstefaniak/code/Web3/FXShield/programs/fxshield/target_sbf_agave/sbf-solana-solana/release/deps/liblog-fd9d5b20780a37fe.rmeta: /Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.29/src/lib.rs /Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.29/src/macros.rs /Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.29/src/serde.rs /Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.29/src/__private_api.rs
+
+/Users/tomaszstefaniak/code/Web3/FXShield/programs/fxshield/target_sbf_agave/sbf-solana-solana/release/deps/liblog-fd9d5b20780a37fe.rlib: /Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.29/src/lib.rs /Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.29/src/macros.rs /Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.29/src/serde.rs /Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.29/src/__private_api.rs
+
+/Users/tomaszstefaniak/code/Web3/FXShield/programs/fxshield/target_sbf_agave/sbf-solana-solana/release/deps/log-fd9d5b20780a37fe.d: /Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.29/src/lib.rs /Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.29/src/macros.rs /Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.29/src/serde.rs /Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.29/src/__private_api.rs
+
+/Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.29/src/lib.rs:
+/Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.29/src/macros.rs:
+/Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.29/src/serde.rs:
+/Users/tomaszstefaniak/.cargo/registry/src/index.crates.io-6f17d22bba15001f/log-0.4.29/src/__private_api.rs:

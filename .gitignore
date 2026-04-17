@@ -1,0 +1,34 @@
+# Solana & Anchor Build Artifacts
+.anchor/
+target/
+test-ledger/
+
+# Node.js
+node_modules/
+.pnp
+.pnp.js
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Downloaded Binaries & Archives
+*.tar.bz2
+solana-release/
+
+# Mac OS
+.DS_Store
+
+# Environment Variables
+.env
+.env.local
+
+# Scratch files & Scripts
+*.bak
+clean_code.py
+update_ui.py
+fix_lock.py
+
+# Documentation & Research (Private)
+docs/
+RESEARCH_OILER_SUPERTEAM.md
+PROJECT_BRIEF.md

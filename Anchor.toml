@@ -1,0 +1,21 @@
+[toolchain]
+
+[features]
+resolution = true
+skip-lint = false
+
+[programs.localnet]
+fxshield = "o3hwgN5oi3VkJxDSTbzHYNXQevJ7e96G6TK6XK6novc"
+
+[programs.devnet]
+fxshield = "o3hwgN5oi3VkJxDSTbzHYNXQevJ7e96G6TK6XK6novc"
+
+[registry]
+url = "https://api.apr.dev"
+
+[provider]
+cluster = "devnet"
+wallet = "~/.config/solana/id.json"
+
+[scripts]
+test = "yarn run mocha -t 1000000 tests/"
