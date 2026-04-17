@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@theme {
+  /* Antigravity OKLCH Color Palette */
+  --color-primary: oklch(0.65 0.25 285);      /* Vibrant Indigo/Purple */
+  --color-primary-hover: oklch(0.7 0.25 285);
+  
+  --color-success: oklch(0.75 0.18 150);      /* Vivid Green */
+  --color-danger: oklch(0.6 0.2 25);          /* Vivid Red/Orange */
+  --color-warning: oklch(0.8 0.15 75);        /* Amber */
+  
+  --color-surface: oklch(0.18 0.05 280 / 0.4); /* Translucent dark glass */
+  --color-surface-hover: oklch(0.25 0.05 280 / 0.5);
+  --color-surface-border: oklch(0.9 0.02 280 / 0.1);
+  
+  /* Deep Space Background */
+  --color-background-deep: oklch(0.1 0.02 280); 
+  --color-text-main: oklch(0.95 0.01 280);
+  --color-text-muted: oklch(0.7 0.02 280);
+
+  /* Fonts */
+  --font-sans: 'Inter', system-ui, sans-serif;
+  --font-mono: 'JetBrains Mono', monospace;
+}
+
+body {
+  background-color: var(--color-background-deep);
+  color: var(--color-text-main);
+  background-image: 
+    radial-gradient(circle at 15% 50%, oklch(0.3 0.1 285 / 0.2) 0%, transparent 50%),
+    radial-gradient(circle at 85% 30%, oklch(0.2 0.08 200 / 0.2) 0%, transparent 50%);
+  background-attachment: fixed;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+/* Base Glassmorphism utility layer */
+.glass-panel {
+  background: var(--color-surface);
+  backdrop-filter: blur(16px);
+  -webkit-backdrop-filter: blur(16px);
+  border: 1px solid var(--color-surface-border);
+  box-shadow: 0 30px 60px rgba(0, 0, 0, 0.4), inset 0 1px 0 rgba(255, 255, 255, 0.1);
+}
+
+.glass-panel-hover {
+  transition: all 0.4s cubic-bezier(0.16, 1, 0.3, 1);
+}
+
+.glass-panel-hover:hover {
+  background: var(--color-surface-hover);
+  border-color: oklch(0.9 0.02 280 / 0.2);
+  transform: translateY(-4px);
+  box-shadow: 0 40px 80px rgba(0, 0, 0, 0.6), inset 0 1px 0 rgba(255, 255, 255, 0.2);
+}
