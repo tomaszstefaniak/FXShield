@@ -92,7 +92,7 @@ The goal is for users to interact with FXShield as a straightforward financial p
 Protocol-level actions such as market setup and settlement are not intended to be part of the public UX. In a production environment, these actions would be handled through restricted admin tooling or operator infrastructure, while execution still happens onchain through authorized transactions.
 
 ### Current MVP behavior
-In the current MVP, one tester may need to move between **User mode** and **Admin mode** to demonstrate the full market lifecycle end to end. This is only a hackathon/demo constraint.
+In the current MVP, a tester may need to move between **User mode** and **Admin mode** to demonstrate the full market lifecycle end to end. This is only a demo constraint.
 
 The intended production behavior is that:
 - users only see the market interaction flow
