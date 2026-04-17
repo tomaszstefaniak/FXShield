@@ -98,3 +98,12 @@ The intended production behavior is that:
 - users only see the market interaction flow
 - admin / operator actions remain hidden from the public interface
 - protocol operations happen in the background without requiring user intervention
+
+### MVP Payout Limitation
+
+In the current MVP, a new vault is created for each note series / issuance flow rather than using a fully generalized pooled collateral model.
+
+Because of that, the vault does not always contain the full maximum payout by default. For example, if a user deposits **10 USDC** and the winning side is expected to redeem **20 USDC**, the vault must be **topped up by an operator** before the full payout can be claimed.
+
+This is a temporary MVP simplification made for demonstration purposes. The intended production design is a cleaner collateral model in which payout coverage is fully pre-funded and does not require manual operational top-ups.
+
