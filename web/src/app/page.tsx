@@ -404,6 +404,12 @@ export default function Home() {
       const program = getProgram();
       const { market } = getDerivedAccounts();
 
+      if (solPrice === null) {
+        setLog("Cannot settle: Solana price is currently unavailable.");
+        setLoading(false);
+        return;
+      }
+
       const scaledPrice = Math.floor(solPrice * 1_000_000);
       const settlementPrice = new BN(scaledPrice);
 
