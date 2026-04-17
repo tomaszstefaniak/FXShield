@@ -72,3 +72,29 @@ This structure keeps the product simple:
 - no margin call flow
 - no order book requirement in the MVP
 - no governance token dependency
+
+---
+
+## MVP Workflow
+
+FXShield separates the product into two layers: a **public user flow** and an **admin / operator flow**.
+
+### Public user flow
+The user experience is designed to stay simple:
+1. choose a market
+2. take a position
+3. wait for expiry
+4. claim payout if the position wins
+
+The goal is for users to interact with FXShield as a straightforward financial product, not as a protocol dashboard.
+
+### Admin / operator flow
+Protocol-level actions such as market setup and settlement are not intended to be part of the public UX. In a production environment, these actions would be handled through restricted admin tooling or operator infrastructure, while execution still happens onchain through authorized transactions.
+
+### Current MVP behavior
+In the current MVP, one tester may need to move between **User mode** and **Admin mode** to demonstrate the full market lifecycle end to end. This is only a hackathon/demo constraint.
+
+The intended production behavior is that:
+- users only see the market interaction flow
+- admin / operator actions remain hidden from the public interface
+- protocol operations happen in the background without requiring user intervention
